@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Oswald:400,700');
+*{
+    font-family: 'Open Sans', sans-serif;
+
+}
+body{
+    background-color: #F0F0F0;
+    color: #353537;
+
+}
+.container{
+    background-color: #fff;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 6px solid #353537;
+    padding: 10px 0;
+    font-size: 36px;
+
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    border-bottom: 6px solid #353537;
+    padding: 10px 0;
+}
+p{
+    font-size: 14px;
+    line-height: 25px;
+}
+article{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.articleinfo{
+    font-size: 13px;
+    color: #777777;
+    margin-bottom: 10px;
+}
+article >h2,article > h3{
+    font-family: 'Open Sans', sans-serif;
+}
+.tags{
+    font-size: 13px;
+    color: #777777;
+    margin-bottom: 10px;
+}
+.logo {margin-top: 40px;}
+.navbar {
+    margin-top: 40px;
+    background-image: none;
+    background-color: #353537;
+    color: #FFFFFF;
+    font-size: 14px;
+    border-bottom: 6px solid #FFC000
+}
+.navbar-default .navbar-nav > li > a {
+    font-weight: bold;
+    color: #fff;
+}
+nav .navbar-nav>li>a:hover {
+    color: #fff !important
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #777;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a{
+    background-image: none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: #FFC000;
+    color: #fff;
+}
+
+.btn-default{
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 30px;
+    background-image: none;
+    color: #777777;
+    background-color: #E6E6E6; 
+    border-radius: 0;
+    border: none;
+}
+.btn-default:hover{
+    color: #F0F0F0;
+    background-color: #801C1C; 
+
+}
+.btn-default:active{
+    color: #fff;
+    background-color: #FFC000; 
+
+}
+aside{
+    background-color: #F0F0F0;
+    padding: 30px;
+}
+input, textarea{
+    padding: 10px 10px;
+    border: 1px solid #E6E6E6;
+    border-radius: 1px;
+}
+button{
+    float: right;
+}
+.sponsors{
+    text-align: center;
+
+}
+.sponsors li{
+    list-style: none;
+    padding: 10px;
+}
+a{
+    color: #353537;
+}
+
+a:hover{
+    color: #801C1C;
+    text-decoration: none;
+}
+footer input, .login input{
+    width: 100%;
+    margin-bottom: 15px;
+}
+footer{
+    background-color: #353537;
+    margin: 15px -15px 0 -15px;
+    padding: 15px;
+}
+footer form button{
+    float: left;
+    margin-right: 15px;
+}
+footer h4{
+    color: #fff;
+}
+footer ul{
+    color: #fff;
+    list-style: none;
+    padding: 0;
+}
+.kontakt ul{
+    list-style: none;
+    padding: 0;
+}
+.sitemap{
+    color: #777;
+}
+.sitemap span{
+    color: #353537;
+}
+.forfatter span{
+    color: #777;
+}
+.kommentar-ikon{
+    font-size: 35px;
+    float: left;
+    display: block;
+    padding-right: 15px;
+}
+.kommentar{
+    float: left;
+    display: block;
+}
+.kommentar h5{
+    font-size: 16px;
+    padding: 0;
+    margin: 0 0 7px 0;
+}
+.kontaktform input{
+    width: 100%;
+}
+.kontaktform textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    min-height: 150px;
+}
+.kontaktform button{
+    float: left;
+}
+.forside article{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.pagination > .active > a {
+    background-color: #FFC000;
+    border-color: #FFC000;
+}
+.pagination > li > a{
+    font-family: 'Oswald', sans-serif;
+
+    color: #777777;
+    background-color: #E6E6E6; 
+    border-radius: 0;
+    border: none;
+}
+.pagination > li > a:hover, .pagination > .active > a:hover{
+    color: #F0F0F0;
+    background-color: #801C1C; 
+
+}
+.searchmsg span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px
+}
+.commentspan{
+    color: #353537;
+    font-weight: bold;
+}
+h5{
+    font-size: 18px; 
+    font-weight: 400;
+}
+table td{
+    text-align: right;
+}
+h6{
+    color: #777;
+    font-size: 18px;
+    font-weight: bold;
+}
